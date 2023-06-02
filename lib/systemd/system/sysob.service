@@ -1,0 +1,10 @@
+[Unit]
+Description=The program  is an monitor to view the load.
+Documentation=the log is in /var/log/sysob/
+
+[Service]
+EnvironmentFile=/lib/systemd/system/sysob.service.d/default.conf
+Type=simple
+ExecStartPre=/usr/sbin/sysob-log.sh
+ExecStart=sh -c "/usr/sbin/sysob.sh -m iotop & /usr/sbin/sysob.sh -m atop & /usr/sbin/sysob.sh -m perf"
+

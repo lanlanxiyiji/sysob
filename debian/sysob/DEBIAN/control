@@ -1,0 +1,12 @@
+Package: sysob
+Version: 3.0-1
+Architecture: all
+Maintainer: niecheng <niecheng1@uniontech.com>
+Installed-Size: 26
+Depends: iotop, atop, linux-perf-4.19
+Section: x11
+Priority: optional
+Homepage: https://www.uniontech.com
+Description: this package sysob is for collect system info.
+ .
+ collect cpu io status.

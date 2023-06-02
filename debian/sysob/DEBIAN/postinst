@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mkdir -p /var/log/sysob
+
+systemctl daemon-reload
+
+#systemctl disable atop
+#systemctl stop atop
+
+exit 0

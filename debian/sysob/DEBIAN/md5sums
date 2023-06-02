@@ -1,0 +1,10 @@
+745165da18fcc54436df90e282f4cee4  lib/systemd/system/sysob.service
+4fff1f40871834b75c1f03facf42e792  lib/systemd/system/sysob.service.d/default.conf
+1848f1e236a6f7c45afcfa08c7953ef0  usr/sbin/sysob-atop.sh
+e2805c867ca4313b0b9d1cb02b965280  usr/sbin/sysob-iotop.sh
+e1b71dfb5e3a9e1511f7f48ae9801f89  usr/sbin/sysob-log.sh
+40e1332ceb0fe7f17344a50e4c0838de  usr/sbin/sysob-perf.sh
+a169af3d2e45b4b1a0c698b1f3a90afe  usr/sbin/sysob.sh
+c0673317b9b9cf4bd6d4696b02c029c9  usr/share/doc/sysob/README.Debian
+50a4710e1c10951f0913414c03724696  usr/share/doc/sysob/changelog.Debian.gz
+d700957c893cda6b6683e7f3619e33ee  usr/share/doc/sysob/copyright

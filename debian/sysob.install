@@ -1,0 +1,7 @@
+lib/systemd/system/sysob.service
+lib/systemd/system/sysob.service.d/default.conf
+usr/sbin/sysob.sh
+usr/sbin/sysob-iotop.sh
+usr/sbin/sysob-atop.sh
+usr/sbin/sysob-log.sh
+usr/sbin/sysob-perf.sh

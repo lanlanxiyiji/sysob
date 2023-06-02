@@ -1,0 +1,15 @@
+Source: sysob
+Version: 3.0
+Section: x11
+Priority: optional
+Maintainer: niecheng <niecheng1@uniontech.com>
+
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://www.uniontech.com
+Package: sysob
+Architecture: all
+Depends: iotop, atop, linux-perf-4.19
+Description: this package sysob is for collect system info.
+ .
+ collect cpu io status.
